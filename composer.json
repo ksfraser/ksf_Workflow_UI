@@ -1,0 +1,11 @@
+{
+    "name": "ksfraser/ksf_workflow_ui",
+    "description": "Standalone Workflow UI - Frontend for ksf-workflow",
+    "type": "project",
+    "require": {
+        "ksfraser/ksf_workflow": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}
