@@ -1,11 +1,17 @@
 {
     "name": "ksfraser/ksf_workflow_ui",
-    "description": "Standalone Workflow UI - Frontend for ksf-workflow",
+    "description": "Standalone Workflow_UI UI - includes UI, DB service, controller",
     "type": "project",
     "require": {
-        "ksfraser/ksf_workflow": "*"
+        "ksfraser/database": "*",
+        "ksfraser/ksf_modulesdao": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ksf\\Workflow_UI\\": "includes/"
+        }
     }
 }
