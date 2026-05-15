@@ -11,7 +11,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ksf\\Workflow_UI\\": "includes/"
+            "Ksfraser\\": "src/Ksfraser/"
         }
     }
 }
